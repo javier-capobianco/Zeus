@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+
+.login-button {
+  background-color: #A6192E !important;
+  border-radius: 24px; 
+}
+
+.signup-button{
+  background-color: #ffffff00 !important;
+  border-radius: 24px; 
+}
+
