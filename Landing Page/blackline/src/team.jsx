@@ -4,7 +4,7 @@ import NavBar from './navbar';
 import './index.css';
 import profile from './assets/profile.png'; 
 import Javi from './assets/Javi.png'; 
-import Maxwell from './assets/Max.png'; 
+import Maxwell from './assets/max.png'; 
 import Arushi from './assets/arushi.jpeg'; 
 import Shanzi from './assets/shanzi.png'; 
 import Dip from './assets/dip.png'; 
