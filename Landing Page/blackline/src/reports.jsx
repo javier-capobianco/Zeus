@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import NavBar from './navbar';
 import './index.css';
-import report from './assets/reports.png';
+import report from './assets/reports1.png';
 
 function Reports() {
   const [count, setCount] = useState(0);
@@ -39,7 +39,7 @@ function Reports() {
             <span className=" text-4xl font-bold text-[#A6192E]"> Reports Page</span>
         </h1>
           <div className="flex justify-center items-center relative">
-            <img src={report} alt="Reports Dashboard" className="w-full max-w-2xl mx-auto rounded-xl shadow-2xl" />
+            <img src={report} alt="Reports Dashboard" className="scale-80 h-110 mx-auto rounded-xl shadow-2xl" />
             <motion.ul 
               initial={{ x: -100, opacity: 0 }} 
               animate={{ x: 0, opacity: 1 }} 

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import NavBar from './navbar';
 import './index.css';
-import profile from './assets/profile.png';
+import profile from './assets/profile1.png';
 
 function Profile() {
   const [count, setCount] = useState(0);
@@ -51,7 +51,7 @@ function Profile() {
             <motion.img 
               src={profile} 
               alt="Reports Dashboard" 
-              className="w-full max-w-2xl mx-auto rounded-xl shadow-2xl" 
+              className="scale-100 h-110 mx-auto rounded-xl shadow-2xl" 
               initial={{ y: 100, opacity: 0 }} 
               animate={{ y: 0, opacity: 1 }} 
               transition={{ duration: 0.8, ease: 'easeOut' }}

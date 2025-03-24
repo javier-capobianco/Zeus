@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import NavBar from './navbar';
 import './index.css';
-import Dash from './assets/dashboard.png';
+import Dash from './assets/dashboard1.png';
 
 function Dashboard() {
   const [count, setCount] = useState(0);
@@ -38,7 +38,7 @@ function Dashboard() {
           transition={{ duration: 0.8, ease: 'easeOut' }}
           className="w-1/2 p-4"
         >
-          <img src={Dash} alt="Dashboard Image" className="scale-90 mx-auto rounded-xl shadow-2xl" />
+          <img src={Dash} alt="Dashboard Image" className="scale-100 h-110 mx-auto rounded-xl shadow-2xl" />
         </motion.div>
         
         <motion.div 

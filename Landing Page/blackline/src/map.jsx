@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import NavBar from './navbar';
 import './index.css';
-import map from './assets/map.png';
+import map from './assets/map1.png';
 
 function Map() {
   const [count, setCount] = useState(0);
@@ -72,7 +72,7 @@ function Map() {
           transition={{ duration: 0.8, ease: 'easeOut' }}
           className="w-1/2 p-4"
         >
-          <img src={map} alt="Interactive Map" className="scale-90 mx-auto rounded-xl shadow-2xl" />
+          <img src={map} alt="Interactive Map" className="scale-100 h-110 mx-auto rounded-xl shadow-2xl" />
         </motion.div>
       </main>
     </div>
