@@ -6,7 +6,7 @@ import profile from './assets/profile.png';
 import Javi from './assets/Javi.png'; 
 import Maxwell from './assets/max.png'; 
 import Arushi from './assets/arushi.jpeg'; 
-import Shanzi from './assets/shanzi.png'; 
+import Shanzi from './assets/shanzis.png'; 
 import Dip from './assets/dip.png'; 
 import Rod from './assets/rod.png'; 
 
