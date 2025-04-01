@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import NavBar from './navbar';
 import './index.css';
 import Dash from './assets/dashboard1.png';
+import LoginSignup from './login_signup';
 
 function Dashboard() {
   const [count, setCount] = useState(0);
@@ -16,18 +17,7 @@ function Dashboard() {
           <span className="text-[#A6192E]">horizon</span>
         </div>
         <NavBar />
-        <div className="space-x-2">
-          <a href="http://app.blacklinehorizon.com/register">
-            <button className="signup-button text-sm bg-transparent text-white hover:bg-gray-700 py-2 px-4 rounded-full">
-              Sign Up
-            </button>
-          </a>
-          <a href="http://app.blacklinehorizon.com/login">
-            <button className="login-button text-sm bg-gray-700 text-white py-2 px-4 rounded-full hover:bg-gray-600">
-              Log In
-            </button>
-          </a>
-        </div>
+        <LoginSignup/>
       </header>
 
       {/* Main Content */}
